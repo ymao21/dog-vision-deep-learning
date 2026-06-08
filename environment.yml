@@ -1,0 +1,40 @@
+name: dog-vision
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - nbformat
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - seaborn
+  - pillow
+  - tqdm
+  - pytorch=2.5
+  - torchvision=0.20
+  - pytorch-cuda=12.4
+  - pip:
+      - accelerate>=0.33,<2
+      - diffusers>=0.30,<1
+      - gradio>=4.0,<6
+      - huggingface-hub>=0.24
+      - lpips>=0.1
+      - opencv-python-headless==4.10.0.84
+      - onnxruntime>=1.18,<2
+      - rembg>=2.0,<3
+      - safetensors>=0.4,<1
+      - segment-anything>=1.0
+      - simple-lama-inpainting>=0.1,<1
+      - torchviz>=0.0.2
+      - transformers>=4.44,<5
+      - ultralytics>=8.2,<9
