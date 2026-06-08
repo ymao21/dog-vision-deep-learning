@@ -238,7 +238,7 @@ python scripts/run_cycle_comparison.py --groups A,B,C,D,E --max-pairs 3 --skip-e
 
 ## Authors
 
-- yining mao
+- Yining Mao
 - Jenny Dong
 - Sharon Lee
 - Steven Si
